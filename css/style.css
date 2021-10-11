@@ -1,0 +1,75 @@
+
+/* l'altezza si adatta al contenuto */
+
+.green{
+    background-color: #1abc9c;
+    /* debug */
+    border: black 1px solid;
+}
+
+/* debug */
+.green .row{
+    border: black 1px solid;
+    height: 100px;
+}
+
+header .row div{
+    border: black 1px solid;
+    height: 100px;
+    background-color: #3a546d;
+}
+
+/* main space */
+.title {
+    /* debug */
+    height: 100px;
+    background-color: blueviolet;
+    border: black 1px solid;
+}
+
+.photo div{
+    /* debug */
+    background-color: red;
+    height: 100px;
+    border: black 1px solid;
+}
+.photo{
+    margin-bottom: 50px;
+}
+
+.contact{
+    margin-bottom: 50px;
+}
+.contact .row {
+    background-color: blue;
+    height: 100px;
+    border: black 1px solid;
+}
+
+.testo div{
+    border: black 1px solid;
+}
+
+/* footer */
+
+
+.copyright{
+    background-color: #2c3e50;
+    /* debug */
+    height: 100px;
+}
+.copyright .row {
+    background-color: crimson;
+    height: 100px;
+    border: black 1px solid;
+}
+
+.info .row div{
+    background-color: coral;
+    border: black 1px solid;
+}
+
+.info .row{
+    height: 100px;
+}
+

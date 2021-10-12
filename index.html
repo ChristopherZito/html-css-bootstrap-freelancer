@@ -187,32 +187,49 @@
         </div>
         <!-- info -->
         <div class="row">
-            <div class="col p-5">
+            <div class="col p-2">
                 <!-- name -->
                 <div>
                     Name
+                    <input type="text"  class="no-border" id="floatingInput" name="user-name">
+                    <label for="floatingInput"></label>
                     <hr>
                 </div>
                 <!-- email -->
-                <div>
-                    Email Address
+                <div>                    
+                    <div class="form-floating">
+                        <span>
+                            Email Address
+                        </span> 
+                        <input type="email"  class="no-border" id="floatingInput" name="email" >
+                        <label for="floatingInput"></label>
+                      </div>
                     <hr>
                 </div>
                 <!-- phone -->
                 <div>
                     Phone number
+                    <input type="tel"  class="no-border" id="floatingInput" name="phone" size="20" minlength="10" maxlength="10" >
+                    <label for="floatingInput"></label>
                     <hr>
                 </div>
                 <!-- message -->
                 <div>
-                    Message                    
+                    <div>
+                        Message
+                    </div> 
+                    <div class="form-floating">
+                        <textarea class="form-control no-border" placeholder="Leave a comment here" id="floatingTextarea " ></textarea>
+                        <label for="floatingTextarea"></label>
+                        </div>
+                    </div> 
+                    <hr>                 
                 </div>
                 <!-- send button -->
-                <div id="button">
-                    <hr>
-                    <a class="btn btn-success" href="#">
+                <div>                    
+                    <button type="button"  class="btn btn-success">
                         Send
-                    </a>
+                    </button>   
                 </div>
             </div>                
         </div>

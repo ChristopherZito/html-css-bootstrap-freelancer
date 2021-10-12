@@ -56,6 +56,11 @@
     color: #fff !important;
 }
 
+.no-border{
+    border: none !important;
+    padding: 0;
+}
+
 /* linea al lato della stella */
 .h-row {
     display: inline-block;
@@ -115,11 +120,7 @@ header nav {
 .img-container img {
     border-radius: 25px;
 }
-
 /* contact me */
-#button {
-    margin-top: 100px;
-}
 
 /* footer */
 .foot-color {
